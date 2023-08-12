@@ -4,12 +4,15 @@
     "dev": "tsx watch src"
   },
   "dependencies": {
-    "effect": "2.0.0-next.24"
+    "effect": "2.0.0-next.24",
+    "zod": "^3.21.4"
   },
   "peerDependencies": {
+    "@effect/data": "*",
     "@effect/io": "*"
   },
   "devDependencies": {
+    "tslib": "^2.6.1",
     "tsx": "^3.12.7",
     "typescript": "~5.1.6"
   }
